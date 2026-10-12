@@ -4,7 +4,8 @@
 
 - 授权：用户要求上传GitHub，检查并说明创建公开 `baiye-gift/BaiyeCryogenicPantry`、启用Issues、整理文件、验证及提交推送的范围，用户回复“上传”确认。本项目此前未建立独立Git仓库，位于工作区未跟踪目录。
 - 实际修改 `.gitignore`、`README.md`、本日志，新增项目根 `preview.png`（已确认第二版工坊图）；初始化项目自己的Git元数据。源码、SCML、KAnim、版本0.1.3及游戏运行代码不变。保留已有AGENTS.md作为独立开发入口；排除bin/obj/dist、安装备份、本机审计、编辑器缓存和环境文件；premium-ui.json保留为现有UI约定。
-- README补入个人开发测试目的、存档提醒、源码/Issues地址、工坊图与可指定GameManaged的独立构建步骤。提交前检查：Release编译0错误/2个既有MSB3277程序集引用警告，91项核心规则、64项原生托管/静态契约、3515项源/原生动画与运动断言通过。暂存62文件，git diff --cached --check通过，游戏DLL/存档/日志/环境文件未暂存，令牌/私钥模式扫描无匹配；bin/obj/dist/premium-audit.json排除检查通过。首个提交和独立检出验证准备中，远端结果将在本节补齐。
+- README补入个人开发测试目的、存档提醒、源码/Issues地址、工坊图与可指定GameManaged的独立构建步骤。提交前检查：Release编译0错误/2个既有MSB3277程序集引用警告，91项核心规则、64项原生托管/静态契约、3515项源/原生动画与运动断言通过。暂存62文件，git diff --cached --check通过，游戏DLL/存档/日志/环境文件未暂存，令牌/私钥模式扫描无匹配；bin/obj/dist/premium-audit.json排除检查通过。
+- 发布：公开仓库 https://github.com/baiye-gift/BaiyeCryogenicPantry 已创建，Issues启用，默认分支main。首个源码提交 `ae27e3671779c97d4a564e3cced16d321b6653e5` 已推送；GitHub API确认远端提交与本地相同、62个文件列表完全匹配、封面189790字节。独立检出仅使用62个提交文件，构建成功，64项原生托管检查与3515项素材断言再次通过，不依赖父工作区源码或未提交文件。本节最终状态随后随文档提交同步至远端，详细本机检查留在忽略目录 `dist/verification/github-20261013/`。
 - 本次不改变0.1.3运行逻辑，未安装或操作游戏。命令行检查不启动Unity/SimDLL，真实供电/管路调度、饮用、食品腐败、旧存档与DLC/多mod完整验收尚未完成；上传为个人开发测试源码，不额外发布二进制Release。
 
 ## 2026-10-06 · 0.1.3 默认管路条件误停机与具体诊断修复，本地升级
