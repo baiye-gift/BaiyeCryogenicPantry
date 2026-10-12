@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<spriter_data scml_version="1.0" generator="BaiyeCryogenicPantry" generator_version="0.1.0">
+  <folder id="0">
+    <file id="0" name="drink0_0.png" width="64" height="112" pivot_x=".5" pivot_y=".5" />
+    <file id="1" name="drink1_0.png" width="64" height="112" pivot_x=".5" pivot_y=".5" />
+    <file id="2" name="drink2_0.png" width="64" height="112" pivot_x=".5" pivot_y=".5" />
+    <file id="3" name="drink3_0.png" width="64" height="112" pivot_x=".5" pivot_y=".5" />
+  </folder>
+  <entity id="0" name="baiye_pantry_drinks">
+    <animation id="0" name="BaiyeChilledSoda" length="50" interval="50" looping="true">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+        </key>
+      </mainline>
+      <timeline id="0" name="drink0_0">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="0" scale_x="0.32" scale_y="0.32" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="1" name="BaiyeBerrySoda" length="50" interval="50" looping="true">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+        </key>
+      </mainline>
+      <timeline id="0" name="drink1_0">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="1" x="0" y="0" scale_x="0.32" scale_y="0.32" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="2" name="BaiyePepperSoda" length="50" interval="50" looping="true">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+        </key>
+      </mainline>
+      <timeline id="0" name="drink2_0">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="2" x="0" y="0" scale_x="0.32" scale_y="0.32" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="3" name="BaiyeEnergySoda" length="50" interval="50" looping="true">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+        </key>
+      </mainline>
+      <timeline id="0" name="drink3_0">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="3" x="0" y="0" scale_x="0.32" scale_y="0.32" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="4" name="object" length="50" interval="50" looping="true">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+        </key>
+      </mainline>
+      <timeline id="0" name="drink0_0">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="0" scale_x="0.32" scale_y="0.32" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="5" name="ui" length="50" interval="50" looping="true">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+        </key>
+      </mainline>
+      <timeline id="0" name="drink0_0">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="0" scale_x="0.32" scale_y="0.32" />
+        </key>
+      </timeline>
+    </animation>
+  </entity>
+</spriter_data>

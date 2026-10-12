@@ -1,0 +1,11 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["src/UI"],
+  "locale": "zh-CN with native English fallback",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": ["Form", "Scrollbar"],
+  "requiredCommands": [],
+  "commands": {},
+  "evidence": {"layoutBudget": "tests/Regression/Program.cs", "paletteContrast": "tests/Native/Program.cs"},
+  "runtime": "Unity/ONI native SideScreen; browser and CSS checks are not applicable. Unity playtest remains outstanding."
+}
